@@ -330,7 +330,7 @@ p {
 .js [data-anime] {
 	opacity: 0;
 	transform: translate3d(0,-50px,0);
-	transition: .3s;
+	transition: .5s;
 }
 
 .js [data-anime].animate {
