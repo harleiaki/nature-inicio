@@ -49,7 +49,7 @@ body {
 	background: white;
 	height: 2px;
 	width: 0;
-	transition: .3s;
+	transition: .5s;
 }
 
 .menu nav li a:hover::after, .menu nav li a.active::after {
@@ -212,7 +212,7 @@ p {
 .js [data-target].active {
 	opacity: 1;
 	visibility: visible;
-	transition: .3s;
+	transition: .5s;
 	position: relative;
 	top: auto;
 	transform: translate3d(0px,0,0);
@@ -240,7 +240,7 @@ p {
 	margin-top: 6px;
 	background: currentColor;
 	position: relative;
-	transition: transform .2s ease;
+	transition: transform .5s ease;
 }
 
 .mobile-btn.active {
@@ -268,7 +268,7 @@ p {
 	opacity: 0;
 	visibility: hidden;
 	transform: translate3d(60px, 0px, 0px);
-	transition: .3s;
+	transition: .5s;
 }
 
 .menu-nav.mobile-menu.active {
